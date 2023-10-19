@@ -6,7 +6,7 @@ const app = express()
 require("./models/database.js").connectedDatabase()
 // logger
 const logger = require("morgan");
-const allowedOrigins = ["http://localhost:3000", "http://localhost:3001"];
+const allowedOrigins = ["https://smartfrontend-ivory.vercel.app", "http://localhost:3001"];
 
 // bodyparser
 app.use(express.json());
